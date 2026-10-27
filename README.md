@@ -1,9 +1,8 @@
 # 📱 Google Play Store Analytics & Predictive Rating Model
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-3.0.5-150458.svg)](https://pandas.pydata.org/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.9.0-F7931E.svg)](https://scikit-learn.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-blue.svg)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458.svg)](https://pandas.pydata.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E.svg)](https://scikit-learn.org/)
 
 An end-to-end Data Science project analyzing **~10.8K Google Play Store apps**. This repository features rigorous data cleaning, outlier management, statistical hypothesis testing ($p < 0.001$), domain feature engineering, multivariate exploratory data analysis, and predictive machine learning models to forecast app ratings and identify key market drivers.
 
@@ -21,6 +20,17 @@ An end-to-end Data Science project analyzing **~10.8K Google Play Store apps**. 
 - [Installation & How to Run](#-installation--how-to-run)
 
 ---
+
+## Visual Preview
+
+![App category install patterns](plots/6_category_type_installs_heatmap.png)
+
+<details>
+<summary>View model feature importance</summary>
+
+![Random Forest feature importance](plots/7_feature_importance.png)
+
+</details>
 
 ## 📊 Executive Summary
 Understanding the factors that influence app ratings, adoption rates, and revenue potential is critical for mobile product managers and developers. This project transforms raw Play Store data into actionable business intelligence by combining statistical validation with machine learning models.
@@ -148,8 +158,8 @@ Target: Predict continuous app `Rating` (Regression) and `Rating_Category` (Clas
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/google-playstore-eda-modeling.git
-cd google-playstore-eda-modeling
+git clone https://github.com/Mayank112233/-Google-Play-Store-EDA-Machine-Learning-Pipeline-.git
+cd ./-Google-Play-Store-EDA-Machine-Learning-Pipeline-
 ```
 
 ### Step 2: Install Dependencies
@@ -171,7 +181,7 @@ Open `Google_Playstore_EDA_and_Modeling.ipynb` to view the step-by-step interact
 ---
 
 ## 👤 Author
-- **Madhu** - [GitHub Profile](https://github.com/)
+- **Mayank Madhukar** — [GitHub Profile](https://github.com/Mayank112233)
 
 ---
 *If you found this project helpful, give it a ⭐️ on GitHub!*
